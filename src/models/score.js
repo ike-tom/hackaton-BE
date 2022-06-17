@@ -5,6 +5,10 @@ const scoreSchema = new Schema({
         type: String,
         required: true,
     },
+    category: {
+        type: String,
+        required: true,
+    },
     score: {
         type: Number,
         required: true,
